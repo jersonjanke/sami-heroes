@@ -4,14 +4,18 @@ import React from 'react'
 import List from './components/List'
 import Search from './components/Search'
 import Header from './components/Header'
+import Footer from './components/Footer'
 
 function App() {
   return (
-    <div>
+    <>
       <Header />
-      <Search />
-      <List />
-    </div>
+      <div className="content">
+        <Search />
+        <List />
+      </div>
+      <Footer />
+    </>
   )
 }
 
