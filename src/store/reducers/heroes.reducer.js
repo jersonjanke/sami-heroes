@@ -1,7 +1,7 @@
 import { SEARCH_HEROES, SET_SEARCH } from '../actions/type.action'
 
 const initialState = {
-  search: '',
+  search: 'spider-man',
   list: [],
 }
 
