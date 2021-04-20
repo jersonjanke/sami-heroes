@@ -1,0 +1,10 @@
+@import './colors.scss';
+
+.header {
+  padding: 1.4em;
+  background: $blue;
+  .title {
+    color: $white;
+    font-size: 1.6em;
+  }
+}

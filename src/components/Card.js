@@ -1,4 +1,5 @@
 import React from 'react'
+import '../assets/styles/card.scss'
 
 const Card = ({ hero }) => {
   return (

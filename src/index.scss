@@ -1,7 +1,4 @@
 @import './assets/styles/colors.scss';
-@import './assets/styles/card.scss';
-@import './assets/styles/list.scss';
-@import './assets/styles/search.scss';
 @import './assets/styles/fonts.scss';
 
 * {
@@ -10,4 +7,5 @@
 
 body {
   background: $black;
+  margin: 0px;
 }

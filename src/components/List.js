@@ -1,4 +1,5 @@
 import React from 'react'
+import './../assets/styles/list.scss'
 import { useSelector } from 'react-redux'
 import Card from './Card'
 
