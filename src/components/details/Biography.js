@@ -1,5 +1,5 @@
 import React from 'react'
-import '../assets/styles/biography.scss'
+import './biography.scss'
 
 const Biography = ({ biography }) => {
   return (

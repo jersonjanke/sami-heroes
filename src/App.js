@@ -3,8 +3,8 @@ import React from 'react'
 
 import List from './components/List'
 import Search from './components/Search'
-import Header from './components/Header'
-import Footer from './components/Footer'
+import Header from './components/utils/Header'
+import Footer from './components/utils/Footer'
 
 function App() {
   return (

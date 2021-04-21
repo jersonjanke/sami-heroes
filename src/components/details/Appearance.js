@@ -1,5 +1,5 @@
 import React from 'react'
-import '../assets/styles/appearance.scss'
+import './appearance.scss'
 
 const Appearance = ({ appearance }) => {
   return (

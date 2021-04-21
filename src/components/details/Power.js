@@ -1,5 +1,5 @@
 import React from 'react'
-import './../assets/styles/power.scss'
+import './power.scss'
 
 const Power = ({ power }) => {
   return (

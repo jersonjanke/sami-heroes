@@ -1,5 +1,5 @@
 import React from 'react'
-import './../assets/styles/search.scss'
+import './search.scss'
 import { useSelector, useDispatch } from 'react-redux'
 import { search, setSearch } from '../store/actions/heroes.action'
 

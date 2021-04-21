@@ -1,5 +1,5 @@
 import React from 'react'
-import '../assets/styles/connections.scss'
+import './connections.scss'
 
 const Connections = ({ connections }) => {
   return (

@@ -1,11 +1,11 @@
 import React, { useRef } from 'react'
-import '../assets/styles/card.scss'
-import Appearance from './Appearance'
-import Biography from './Biography'
-import Connections from './Connections'
-import Modal from './Modal'
-import Power from './Power'
-import Work from './Work'
+import './card.scss'
+import Appearance from '../details/Appearance'
+import Biography from '../details/Biography'
+import Connections from '../details/Connections'
+import Modal from '../utils/Modal'
+import Power from '../details/Power'
+import Work from '../details/Work'
 
 const Card = ({ hero }) => {
   const modal = useRef(null)

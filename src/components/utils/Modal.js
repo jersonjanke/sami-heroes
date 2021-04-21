@@ -6,7 +6,7 @@ import React, {
   useImperativeHandle,
 } from 'react'
 import { createPortal } from 'react-dom'
-import '../assets/styles/modal.scss'
+import './modal.scss'
 
 const modalElement = document.getElementById('modal-root')
 

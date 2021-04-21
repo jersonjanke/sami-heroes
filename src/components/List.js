@@ -1,7 +1,7 @@
 import React from 'react'
-import './../assets/styles/list.scss'
+import './list.scss'
 import { useSelector } from 'react-redux'
-import Card from './Card'
+import Card from './card/Card'
 
 const List = () => {
   const { list } = useSelector((state) => state.heroes)

@@ -1,5 +1,5 @@
 import React from 'react'
-import './../assets/styles/footer.scss'
+import './footer.scss'
 import { GitHub, Linkedin } from 'react-feather'
 
 const Footer = () => {
