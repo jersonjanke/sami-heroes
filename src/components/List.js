@@ -7,15 +7,14 @@ import Card from './card/Card'
 const List = () => {
   const filterList = useSelector(selectorPublisher)
   const heroes = useSelector((state) => state.heroes)
-
-  console.log(heroes.isLoading)
-
   return (
     <div className="list">
       {heroes.isLoading ? <div className="loader"></div> : null}
-      {filterList
-        ? filterList.map((hero) => <Card key={hero.id} hero={hero} />)
-        : 'Not found hero!'}
+      {filterList ? (
+        filterList.map((hero) => <Card key={hero.id} hero={hero} />)
+      ) : (
+        <span className="notFound">Not found hero!</span>
+      )}
     </div>
   )
 }
