@@ -1,14 +1,14 @@
-import axios from 'axios'
 import {
   SEARCH_HEROES,
   SET_SEARCH,
   SEARCH_PUBLISHER,
   SET_LOADER,
 } from '../actions/type.action'
-const URL_BASE = 'https://www.superheroapi.com/api.php/1553314874865944'
+
+import searchHeroes from '../../api/api'
 
 export const search = (name) => {
-  const request = axios.get(`${URL_BASE}/search/${name}`)
+  const request = searchHeroes(name)
   return [
     setLoader(true),
     (dispatch) => {
