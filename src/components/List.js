@@ -1,14 +1,15 @@
 import React from 'react'
 import './list.scss'
 import { useSelector } from 'react-redux'
+import { selectorPublisher } from './../store/selectors/heroes.selector'
 import Card from './card/Card'
 
 const List = () => {
-  const { list } = useSelector((state) => state.heroes)
+  const filterList = useSelector(selectorPublisher)
   return (
     <div className="list">
-      {list
-        ? list.map((hero) => <Card key={hero.id} hero={hero} />)
+      {filterList
+        ? filterList.map((hero) => <Card key={hero.id} hero={hero} />)
         : 'Not found hero!'}
     </div>
   )

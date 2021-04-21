@@ -1,7 +1,12 @@
-import { SEARCH_HEROES, SET_SEARCH } from '../actions/type.action'
+import {
+  SEARCH_HEROES,
+  SET_SEARCH,
+  SEARCH_PUBLISHER,
+} from '../actions/type.action'
 
 const initialState = {
   search: '',
+  publisher: '',
   list: [],
 }
 
@@ -11,6 +16,11 @@ const heroesReducer = (state = initialState, action) => {
       return {
         ...state,
         search: action.payload,
+      }
+    case SEARCH_PUBLISHER:
+      return {
+        ...state,
+        publisher: action.payload,
       }
     case SEARCH_HEROES:
       return {

@@ -1,14 +1,26 @@
 import React from 'react'
 import './filter.scss'
+import { setPublisher } from './../store/actions/heroes.action'
+import { useDispatch } from 'react-redux'
+import { publishers } from './utils/publishers'
 
 const Filter = () => {
+  const dispatch = useDispatch()
+
   return (
     <div className="filter">
-      <select name="cars" id="cars">
-        <option value="Marvel Comics">Marvel Comics</option>
-        <option value="Dark Horse Comics">Dark Horse Comics</option>
-        <option value="mercedes">DC Comics</option>
-        <option value="audi">NBC - Heroes</option>
+      <label htmlFor="publisher">Publisher</label>
+      <select
+        name="publisher "
+        id="publisher "
+        onChange={(e) => dispatch(setPublisher(e.target.value))}
+      >
+        <option value="">All</option>
+        {publishers.map((item) => (
+          <option key={item} value={item}>
+            {item}
+          </option>
+        ))}
       </select>
     </div>
   )
