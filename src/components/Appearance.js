@@ -4,7 +4,7 @@ import '../assets/styles/appearance.scss'
 const Appearance = ({ appearance }) => {
   return (
     <div>
-      <h2>appearance</h2>
+      <h3>appearance</h3>
       <div>
         <div className="info-item">
           Gender: <span className="attr">{appearance.gender}</span>
