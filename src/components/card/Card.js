@@ -13,6 +13,7 @@ const Card = ({ hero }) => {
   return (
     <div className="card" onClick={() => modal.current.open()}>
       <div>{hero.name}</div>
+      <div className="publisher">{hero.biography.publisher}</div>
       <img alt={hero.name} src={hero.image.url} />
       <Modal ref={modal}>
         <div className="name">{hero.name}</div>
@@ -22,7 +23,7 @@ const Card = ({ hero }) => {
             <Biography biography={hero.biography} />
             <Power power={hero.powerstats} />
           </div>
-          <div className="card-info">
+          <div>
             <Appearance appearance={hero.appearance} />
             <Work work={hero.work} />
             <Connections connections={hero.connections} />

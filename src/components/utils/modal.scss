@@ -25,14 +25,9 @@
   .modal-content {
     padding: 0.8em;
     background: $ligth-black;
-    height: 80vh;
-    width: 75vw;
+    height: 100%;
+    width: 100%;
     border-radius: 0.5em;
-
-    @media only screen and (max-width: 600px) {
-      height: 100%;
-      width: 100%;
-    }
   }
   .modal-close {
     display: flex;
