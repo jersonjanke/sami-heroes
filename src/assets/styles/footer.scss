@@ -1,9 +1,21 @@
 @import './colors.scss';
 
 footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   flex-shrink: 0;
   padding: 20px;
   background: $ligth-black;
   height: 4em;
   color: $white;
+  box-shadow: 0px 0px 1px 0px $white;
+
+  a {
+    color: $white;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 5px;
+  }
 }
