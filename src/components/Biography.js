@@ -5,6 +5,7 @@ const Biography = ({ biography }) => {
   return (
     <div>
       <div>
+        <h3>Biography</h3>
         <div className="info-item">
           Full-name:<span className="attr">{biography['full-name']}</span>
         </div>
@@ -29,7 +30,9 @@ const Biography = ({ biography }) => {
       <div className="info-item">
         <div>Aliases</div>
         {biography.aliases.map((aliases) => (
-          <li className="attr">{aliases}</li>
+          <li key={aliases} className="attr">
+            {aliases}
+          </li>
         ))}
       </div>
     </div>

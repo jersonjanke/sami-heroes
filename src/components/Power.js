@@ -4,6 +4,7 @@ import './../assets/styles/power.scss'
 const Power = ({ power }) => {
   return (
     <div className="power">
+      <h3>Power</h3>
       <div className="power-item">
         <div className="title">
           Intelligence ({+power.intelligence ? power.intelligence : 0})
