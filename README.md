@@ -6,8 +6,8 @@
 - [2. A aplicação](#2-a-aplicação)
 - [3. Desenvolvimento](#3-desenvolvimento)
 - [4. Interface Final](#4-interface-final)
-- [5. Tecnologias](#️5-tecnologias)
-- [6. Rodar aplicacao](#6-rodar-aplicacao)
+- [5. Tecnologias](#5-tecnologias)
+- [6. Rodar aplicação](#6-rodar-aplicação)
 - [7. Desenvolvedor](#7-desenvolvedor)
 
 ---
@@ -59,7 +59,7 @@ Convido você a acessar a aplicação e começar a usá-la agora mesmo através 
 - Redux
 - SASS
 
-## 6. Rodar aplicacao
+## 6. Rodar aplicação
 
 Instalar as dependências:
 
