@@ -25,8 +25,6 @@ const Card = ({ hero }) => {
           <div className="card-info">
             <Appearance appearance={hero.appearance} />
             <Work work={hero.work} />
-          </div>
-          <div className="card-info">
             <Connections connections={hero.connections} />
           </div>
         </div>
