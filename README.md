@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# Sami Heroes
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Índice
 
-## Available Scripts
+- [1. Desafio](#1-desafio)
+- [2. A aplicação](#2-a-aplicação)
+- [3. Desenvolvimento](#3-desenvolvimento)
+- [4. Interface Final](#4-interface-final)
+- [5. Tecnologias](#️5-tecnologias)
+- [6. Desenvolvedor](#6-desenvolvedoras)
 
-In the project directory, you can run:
+---
 
-### `yarn start`
+## 1. Desafio
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Desafio desenvolvido pela empresa [**Sami**](https://www.samisaude.com.br/#/) com o intuito de medir a senioridade para um Desenvolvedor Front-End.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Consiste em desenvolver uma aplicação web que traga a listagem de super heróis utilizando a API escolhida por eles, a [**Super Hero API**](https://superheroapi.com/).
 
-### `yarn test`
+Para o desenvolvimento há apenas uma regra a seguir:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- O teste deve ser feito utilizando **React JS**.
 
-### `yarn build`
+Claro que se você:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Utilizar **Redux** será um diferencial.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+O design da tela fica por conta da criatividade do desenvolvedor, porém algumas dicas e funcionalidades básicas a seguir devem ser levadas em consideração:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Listagem dos heróis;
+- Filtragem de heróis por nome e poderes;
+- Ao clicar no herói, exibir um modal com as informações completas dele;
+- Gostam de [Atomic Design](https://bradfrost.com/blog/post/atomic-web-design/);
+- Utilizam SCSS;
+- Utilizam StandardJS.
 
-### `yarn eject`
+## 2. A Aplicação
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+A partir do desafio acima foi desenvolvido a [**Sami Heroes**](https://jersonjanke.github.io/sami-heroes/), uma aplicação web onde você pode pesquisar seu herói favorito, vilões e se aprofundar mais no mundo dos _Comics_.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+A busca na página pode ser feita pelo nome do herói que você deseja saber mais informações, ou você pode filtrar pela editora do personagem.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Ao selecionar o herói desejado, você consegue ter mais detalhes dele, como dados de aparência do herói (altura, peso, gênero), sua biografia, e dados como percentual de inteligência, força, velocidade, etc.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## 3. Desenvolvimento
 
-## Learn More
+Seguindo a regra do desafio, a aplicação foi desenvolvida em React JS, com a utilização do Redux.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Ao estudar a API foi verificado um limitador para a filtragem por poder, uma vez que o mesmo traz um valor de poder que cada personagem tem e não um tipo de poder. Com isso foi desenvolvido o filtro por editora, assim podemos aplicar um filtro de editora, para saber em que editora foi lançado o herói, assim complementando a pesquisa.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 4. Interface Final
 
-### Code Splitting
+Convido você a acessar a aplicação e começar a usá-la agora mesmo através do [Link](https://jersonjanke.github.io/sami-heroes/).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 5. Tecnologias
 
-### Analyzing the Bundle Size
+- ReactJs
+- Redux
+- SASS
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 6. Desenvolvedor
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<div align='center'>
+Aplicação desenvolvida por <strong>Jerson Janke</strong>.
+<br>
+<a href='https://github.com/jersonjanke'>GitHub</a> | <a href='https://www.linkedin.com/in/jerson-janke/'>LinkedIn</a>
+</div>
