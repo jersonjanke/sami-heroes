@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/sami-heroes/static/css/main.0b3c542c.chunk.css",
-    "main.js": "/sami-heroes/static/js/main.aa0661a1.chunk.js",
-    "main.js.map": "/sami-heroes/static/js/main.aa0661a1.chunk.js.map",
+    "main.css": "/sami-heroes/static/css/main.c23d9c6e.chunk.css",
+    "main.js": "/sami-heroes/static/js/main.a0243fdf.chunk.js",
+    "main.js.map": "/sami-heroes/static/js/main.a0243fdf.chunk.js.map",
     "runtime-main.js": "/sami-heroes/static/js/runtime-main.cdd81712.js",
     "runtime-main.js.map": "/sami-heroes/static/js/runtime-main.cdd81712.js.map",
-    "static/js/2.acfbf929.chunk.js": "/sami-heroes/static/js/2.acfbf929.chunk.js",
-    "static/js/2.acfbf929.chunk.js.map": "/sami-heroes/static/js/2.acfbf929.chunk.js.map",
+    "static/js/2.40db985d.chunk.js": "/sami-heroes/static/js/2.40db985d.chunk.js",
+    "static/js/2.40db985d.chunk.js.map": "/sami-heroes/static/js/2.40db985d.chunk.js.map",
     "static/js/3.d85e6298.chunk.js": "/sami-heroes/static/js/3.d85e6298.chunk.js",
     "static/js/3.d85e6298.chunk.js.map": "/sami-heroes/static/js/3.d85e6298.chunk.js.map",
     "index.html": "/sami-heroes/index.html",
-    "static/css/main.0b3c542c.chunk.css.map": "/sami-heroes/static/css/main.0b3c542c.chunk.css.map",
-    "static/js/2.acfbf929.chunk.js.LICENSE.txt": "/sami-heroes/static/js/2.acfbf929.chunk.js.LICENSE.txt",
+    "static/css/main.c23d9c6e.chunk.css.map": "/sami-heroes/static/css/main.c23d9c6e.chunk.css.map",
+    "static/js/2.40db985d.chunk.js.LICENSE.txt": "/sami-heroes/static/js/2.40db985d.chunk.js.LICENSE.txt",
     "static/media/index.scss": "/sami-heroes/static/media/CRIMFBRG.65bff7ad.TTF"
   },
   "entrypoints": [
     "static/js/runtime-main.cdd81712.js",
-    "static/js/2.acfbf929.chunk.js",
-    "static/css/main.0b3c542c.chunk.css",
-    "static/js/main.aa0661a1.chunk.js"
+    "static/js/2.40db985d.chunk.js",
+    "static/css/main.c23d9c6e.chunk.css",
+    "static/js/main.a0243fdf.chunk.js"
   ]
 }
