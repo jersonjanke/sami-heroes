@@ -1,0 +1,16 @@
+@import './colors.scss';
+
+.power-item {
+  margin: 1em;
+}
+
+.title {
+  font-size: 0.8em;
+  margin-bottom: 0.4em;
+}
+
+.line {
+  background: $blue;
+  height: 6px;
+  border-radius: 0.4em;
+}
