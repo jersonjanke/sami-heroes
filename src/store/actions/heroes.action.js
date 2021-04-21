@@ -3,18 +3,22 @@ import {
   SEARCH_HEROES,
   SET_SEARCH,
   SEARCH_PUBLISHER,
+  SET_LOADER,
 } from '../actions/type.action'
 const URL_BASE = 'https://www.superheroapi.com/api.php/1553314874865944'
 
 export const search = (name) => {
   const request = axios.get(`${URL_BASE}/search/${name}`)
-  return (dispatch) => {
-    request
-      .then((response) => {
-        dispatch({ type: SEARCH_HEROES, payload: response.data.results })
-      })
-      .catch((error) => console.error(error))
-  }
+  return [
+    setLoader(true),
+    (dispatch) => {
+      request
+        .then((response) => {
+          dispatch({ type: SEARCH_HEROES, payload: response.data.results })
+        })
+        .catch((error) => console.error(error))
+    },
+  ]
 }
 
 export const setSearch = (name) => {
@@ -28,5 +32,12 @@ export const setPublisher = (publisher) => {
   return {
     type: SEARCH_PUBLISHER,
     payload: publisher,
+  }
+}
+
+export const setLoader = (loader) => {
+  return {
+    type: SET_LOADER,
+    payload: loader,
   }
 }
