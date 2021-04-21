@@ -7,7 +7,8 @@
 - [3. Desenvolvimento](#3-desenvolvimento)
 - [4. Interface Final](#4-interface-final)
 - [5. Tecnologias](#️5-tecnologias)
-- [6. Desenvolvedor](#6-desenvolvedoras)
+- [6. Rodar aplicacao](#6-rodar-aplicacao)
+- [7. Desenvolvedor](#7-desenvolvedor)
 
 ---
 
@@ -58,7 +59,23 @@ Convido você a acessar a aplicação e começar a usá-la agora mesmo através 
 - Redux
 - SASS
 
-## 6. Desenvolvedor
+## 6. Rodar aplicacao
+
+Instalar as dependências:
+
+```
+yarn install
+```
+
+Rodar projeto:
+
+```
+yarn start
+```
+
+Em seguida acesse: - [localhos:3000](http://localhost:3000)
+
+## 7. Desenvolvedor
 
 <div align='center'>
 Aplicação desenvolvida por <strong>Jerson Janke</strong>.
