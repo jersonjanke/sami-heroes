@@ -46,7 +46,7 @@ Ao selecionar o herói desejado, você consegue ter mais detalhes dele, como dad
 
 Seguindo a regra do desafio, a aplicação foi desenvolvida em React JS, com a utilização do Redux.
 
-Ao estudar a API foi verificado um limitador para a filtragem por poder, uma vez que o mesmo traz um valor de poder que cada personagem tem e não um tipo de poder. Com isso foi desenvolvido o filtro por editora, assim podemos aplicar um filtro de editora, para saber em que editora foi lançado o herói, assim complementando a pesquisa.
+Ao estudar a API foi verificado um limitador para a filtragem por poder, uma vez que o mesmo traz um valor de poder que cada personagem tem e não um tipo de poder. Com isso foi desenvolvido o filtro por editora, para saber em que editora foi lançado o herói, assim complementando a pesquisa.
 
 ## 4. Interface Final
 
