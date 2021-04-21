@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/sami-heroes/static/css/main.0fec5a09.chunk.css",
+    "main.js": "/sami-heroes/static/js/main.2fa7f63b.chunk.js",
+    "main.js.map": "/sami-heroes/static/js/main.2fa7f63b.chunk.js.map",
+    "runtime-main.js": "/sami-heroes/static/js/runtime-main.ccf2f2ce.js",
+    "runtime-main.js.map": "/sami-heroes/static/js/runtime-main.ccf2f2ce.js.map",
+    "static/js/2.18c31f91.chunk.js": "/sami-heroes/static/js/2.18c31f91.chunk.js",
+    "static/js/2.18c31f91.chunk.js.map": "/sami-heroes/static/js/2.18c31f91.chunk.js.map",
+    "static/js/3.8aadd3ce.chunk.js": "/sami-heroes/static/js/3.8aadd3ce.chunk.js",
+    "static/js/3.8aadd3ce.chunk.js.map": "/sami-heroes/static/js/3.8aadd3ce.chunk.js.map",
+    "index.html": "/sami-heroes/index.html",
+    "static/css/main.0fec5a09.chunk.css.map": "/sami-heroes/static/css/main.0fec5a09.chunk.css.map",
+    "static/js/2.18c31f91.chunk.js.LICENSE.txt": "/sami-heroes/static/js/2.18c31f91.chunk.js.LICENSE.txt",
+    "static/media/index.scss": "/sami-heroes/static/media/CRIMFBRG.65bff7ad.TTF"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ccf2f2ce.js",
+    "static/js/2.18c31f91.chunk.js",
+    "static/css/main.0fec5a09.chunk.css",
+    "static/js/main.2fa7f63b.chunk.js"
+  ]
+}
