@@ -4,7 +4,27 @@ import '../assets/styles/appearance.scss'
 const Appearance = ({ appearance }) => {
   return (
     <div>
-      <h3>appearance</h3>
+      <h2>appearance</h2>
+      <div>
+        <div className="info-item">
+          Gender: <span className="attr">{appearance.gender}</span>
+        </div>
+        <div className="info-item">
+          Race: <span className="attr">{appearance.race}</span>
+        </div>
+        <div className="info-item">
+          Height: <span className="attr">{appearance.height[1]}</span>
+        </div>
+        <div className="info-item">
+          Weight: <span className="attr">{appearance.weight[1]}</span>
+        </div>
+        <div className="info-item">
+          Eye color: <span className="attr">{appearance['eye-color']}</span>
+        </div>
+        <div className="info-item">
+          Hair-color: <span className="attr">{appearance['hair-color']}</span>
+        </div>
+      </div>
     </div>
   )
 }
