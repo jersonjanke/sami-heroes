@@ -3,35 +3,65 @@ import './../assets/styles/power.scss'
 
 const Power = ({ power }) => {
   return (
-    <div>
+    <div className="power">
       <div className="power-item">
-        <div className="title">Intelligence ({power.intelligence})</div>
-        <div className="line" style={{ width: `${power.intelligence}%` }}></div>
+        <div className="title">
+          Intelligence ({+power.intelligence ? power.intelligence : 0})
+        </div>
+        <div
+          className="line intelligence"
+          style={{
+            width: `${+power.intelligence ? power.intelligence : 0}%`,
+          }}
+        ></div>
       </div>
 
       <div className="power-item">
-        <div className="title">Strength ({power.strength})</div>
-        <div className="line" style={{ width: `${power.strength}%` }}></div>
+        <div className="title">
+          Strength ({+power.strength ? power.strength : 0})
+        </div>
+        <div
+          className="line strength"
+          style={{
+            width: `${+power.strength ? power.strength : 0}%`,
+          }}
+        ></div>
       </div>
 
       <div className="power-item">
-        <div className="title">Speed ({power.speed})</div>
-        <div className="line" style={{ width: `${power.speed}%` }}></div>
+        <div className="title">Speed ({+power.speed ? power.speed : 0})</div>
+        <div
+          className="line speed"
+          style={{ width: `${+power.speed ? power.speed : 0}%` }}
+        ></div>
       </div>
 
       <div className="power-item">
-        <div className="title">Durability ({power.durability})</div>
-        <div className="line" style={{ width: `${power.durability}%` }}></div>
+        <div className="title">
+          Durability ({+power.durability ? power.durability : 0})
+        </div>
+        <div
+          className="line durability"
+          style={{
+            width: `${+power.durability ? power.durability : 0}%`,
+          }}
+        ></div>
       </div>
 
       <div className="power-item">
-        <div className="title">Power ({power.power})</div>
-        <div className="line" style={{ width: `${power.power}%` }}></div>
+        <div className="title">Power ({+power.power ? power.power : 0})</div>
+        <div
+          className="line power"
+          style={{ width: `${+power.power ? power.power : 0}%` }}
+        ></div>
       </div>
 
       <div className="power-item">
-        <div className="title">Combat ({power.combat})</div>
-        <div className="line" style={{ width: `${power.combat}%` }}></div>
+        <div className="title">Combat ({+power.combat ? power.combat : 0})</div>
+        <div
+          className="line combat"
+          style={{ width: `${+power.combat ? power.combat : 0}%` }}
+        ></div>
       </div>
     </div>
   )

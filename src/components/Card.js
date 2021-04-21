@@ -14,7 +14,9 @@ const Card = ({ hero }) => {
         <div>{hero.name}</div>
         <div className="power">
           <hr />
-          <div>
+          <h3>Power</h3>
+          <div className="card-info">
+            <img alt={hero.name} className="profile" src={hero.image.url} />
             <Power power={hero.powerstats} />
           </div>
         </div>

@@ -27,3 +27,13 @@
 .power {
   margin-top: 1.4em;
 }
+
+.card-info {
+  display: flex;
+
+  img {
+    height: 29vh;
+    border-radius: 0.5em;
+    margin-top: 1em;
+  }
+}

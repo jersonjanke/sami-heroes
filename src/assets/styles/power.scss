@@ -1,5 +1,15 @@
 @import './colors.scss';
 
+.power {
+  width: 100%;
+  margin-top: 0em;
+
+  h3 {
+    margin: 1em 0em 0em 0em;
+    font-size: 1.4em;
+  }
+}
+
 .power-item {
   margin: 1em;
 }
@@ -10,7 +20,60 @@
 }
 
 .line {
-  background: $blue;
-  height: 6px;
+  height: 0.6em;
   border-radius: 0.4em;
+
+  &.intelligence {
+    background: linear-gradient(
+      6deg,
+      rgba(127, 56, 242, 1) 0%,
+      rgba(65, 56, 242, 1) 38%,
+      rgba(75, 134, 242, 1) 94%
+    );
+  }
+
+  &.strength {
+    background: linear-gradient(
+      6deg,
+      rgba(56, 242, 206, 1) 18%,
+      rgba(56, 242, 87, 1) 48%,
+      rgba(75, 242, 187, 1) 83%
+    );
+  }
+
+  &.speed {
+    background: linear-gradient(
+      6deg,
+      rgba(242, 56, 56, 1) 18%,
+      rgba(242, 159, 56, 1) 48%,
+      rgba(242, 75, 75, 1) 83%
+    );
+  }
+
+  &.durability {
+    background: linear-gradient(
+      6deg,
+      rgba(56, 197, 242, 1) 18%,
+      rgba(56, 242, 212, 1) 48%,
+      rgba(75, 213, 242, 1) 83%
+    );
+  }
+
+  &.power {
+    background: linear-gradient(
+      6deg,
+      rgba(209, 56, 242, 1) 18%,
+      rgba(171, 56, 242, 1) 48%,
+      rgba(195, 75, 242, 1) 83%
+    );
+  }
+
+  &.combat {
+    background: linear-gradient(
+      6deg,
+      rgba(222, 242, 56, 1) 18%,
+      rgba(228, 242, 56, 1) 48%,
+      rgba(242, 218, 75, 1) 83%
+    );
+  }
 }
