@@ -1,5 +1,6 @@
 import React, { useRef } from 'react'
 import '../assets/styles/card.scss'
+import Biography from './Biography'
 import Modal from './Modal'
 import Power from './Power'
 
@@ -18,6 +19,11 @@ const Card = ({ hero }) => {
           <div className="card-info">
             <img alt={hero.name} className="profile" src={hero.image.url} />
             <Power power={hero.powerstats} />
+          </div>
+          <h3>Biography</h3>
+          <hr />
+          <div className="card-info">
+            <Biography biography={hero.biography} />
           </div>
         </div>
       </Modal>
