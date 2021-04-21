@@ -1,5 +1,4 @@
 import React from 'react'
-import './connections.scss'
 
 const Connections = ({ connections }) => {
   return (

@@ -1,5 +1,4 @@
 import React from 'react'
-import './appearance.scss'
 
 const Appearance = ({ appearance }) => {
   return (

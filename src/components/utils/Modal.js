@@ -60,7 +60,7 @@ const Modal = ({ children }, ref) => {
           >
             x
           </span>
-          {children}
+          <div className="children">{children}</div>
         </div>
       </div>
     ) : null,

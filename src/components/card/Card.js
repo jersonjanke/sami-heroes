@@ -23,7 +23,7 @@ const Card = ({ hero }) => {
             <Biography biography={hero.biography} />
             <Power power={hero.powerstats} />
           </div>
-          <div>
+          <div className="card-info">
             <Appearance appearance={hero.appearance} />
             <Work work={hero.work} />
             <Connections connections={hero.connections} />

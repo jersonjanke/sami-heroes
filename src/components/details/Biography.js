@@ -1,5 +1,4 @@
 import React from 'react'
-import './biography.scss'
 
 const Biography = ({ biography }) => {
   return (
